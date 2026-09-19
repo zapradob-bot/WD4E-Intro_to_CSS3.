@@ -86,3 +86,57 @@ section{
   
   /*padding:25px;*/
 }
+/* Paso 2: Estilo para el enlace de salto accesible */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000000;
+    color: #ffffff;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* Paso 3: Comentar o eliminar el estilo de li si existía */
+/*
+li {
+    display: inline-block;
+    width: 20%;
+}
+*/
+
+/* Paso 4: Elemento nav */
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+/* Paso 5: Imagen dentro de nav */
+nav img {
+    width: 10%;
+}
+
+/* Pasos 6 y 8: Clase grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 20px;
+}
+
+/* Paso 7: Imágenes dentro de .grid */
+.grid img {
+    width: 100%;
+}
+
+/* Paso 9: Clase flex */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
